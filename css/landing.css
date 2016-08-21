@@ -10,10 +10,13 @@ img{border: 0 none; height: auto; max-width: 100%; vertical-align: middle;}
 article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {display: block;}   /* Делаем HTML5 элементы блочными */
 /* Конец подгонки под старые браузеры*/
 
-body{background: #C2EEDF; margin: 0; padding: 0;
+body{background: #C2EEDF; margin: 0; padding: 0; color: #173567;
      font-size: 15px; font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;}
 .container{max-width: 1200px; padding: 0 15px; margin: 0 auto 20px auto;}
 .block{background: #fff; padding: 10px; margin-top: 20px; border-radius: 5px;}
+.block.blue {background: #95C8FD}
+.block.green{background: #5DD9B7}
+.block.red  {background: #E42C24}
 
 .grid{margin: 0 0 -15px -15px; width: auto;}
 .grid > * {padding: 0 0 15px 15px;}
