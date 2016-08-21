@@ -1,0 +1,39 @@
+/* Общие классы */
+*{box-sizing:border-box}
+.box{width:100%;position:relative}
+.box:after,.form:after{content:"";display:block;clear:both}
+.center{text-align: center;}
+.up{text-transform: uppercase;}
+img{border: 0 none; height: auto; max-width: 100%; vertical-align: middle;}
+
+/* Подгонка под старые браузеры*/
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {display: block;}   /* Делаем HTML5 элементы блочными */
+/* Конец подгонки под старые браузеры*/
+
+body{background: #C2EEDF; margin: 0; padding: 0;
+     font-size: 15px; font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;}
+.container{max-width: 1200px; padding: 0 15px; margin: 0 auto 20px auto;}
+.block{background: #fff; padding: 10px; margin-top: 20px; border-radius: 5px;}
+
+.grid{margin: 0 0 -15px -15px; width: auto;}
+.grid > * {padding: 0 0 15px 15px;}
+.grid > .clear_grid{padding-bottom: 0;}
+@media (min-width: 1220px) {
+    .grid{margin: 0 0 -25px -25px; width: auto;}
+    .grid > * {padding: 0 0 25px 25px;}
+}
+
+.col12{float:left; width: 100%;}
+.col11{float:left; width: 91.66666667%;}
+.col10{float:left; width: 83.33333333%;}
+.col9 {float:left; width: 75%;}
+.col8 {float:left; width: 66.66666667%;}
+.col7 {float:left; width: 58.33333333%;}
+.col6 {float:left; width: 50%;}
+.col5 {float:left; width: 41.66666667%;}
+.col4 {float:left; width: 33.33333333%;}
+.col3 {float:left; width: 25%;}
+.col2 {float:left; width: 16.66666667%;}
+.col1 {float:left; width: 8.33333333%;}
+
+ul.clear{list-style: outside none none; margin: 0; padding: 0;}
