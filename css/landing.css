@@ -1,10 +1,11 @@
 /* Общие классы */
-*{box-sizing:border-box}
-.box{width:100%;position:relative}
+*{box-sizing: border-box;}
+.box{width: 100%; position: relative;}
 .box:after,.form:after{content:"";display:block;clear:both}
 .center{text-align: center;}
 .up{text-transform: uppercase;}
 img{border: 0 none; height: auto; max-width: 100%; vertical-align: middle;}
+ul{list-style: outside none none; margin: 0; padding: 0;}
 
 /* Подгонка под старые браузеры*/
 article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {display: block;}   /* Делаем HTML5 элементы блочными */
@@ -12,11 +13,15 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
 
 body{background: #C2EEDF; margin: 0; padding: 0; color: #173567;
      font-size: 15px; font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;}
-.container{max-width: 1200px; padding: 0 15px; margin: 0 auto 20px auto;}
+.container{max-width: 776px; padding: 0 15px; margin: 0 auto 20px auto;}
 .block{background: #fff; padding: 10px; margin-top: 20px; border-radius: 5px;}
-.block.blue {background: #95C8FD}
-.block.green{background: #5DD9B7}
-.block.red  {background: #E42C24}
+.block.blue {background: #95C8FD;}
+.block.dark-blue{background: #194E84; color: #fff;}
+.block.light-blue{background: #2B89BF; color: #fff;}
+.block.green{background: #5DD9B7;}
+.block.red  {background: #E42C24; color: #fff;}
+.block.lilac{background: #D7C9FC;}
+.block.yellow{background: #FDF4A9;}
 
 .grid{margin: 0 0 -15px -15px; width: auto;}
 .grid > * {padding: 0 0 15px 15px;}
@@ -39,4 +44,21 @@ body{background: #C2EEDF; margin: 0; padding: 0; color: #173567;
 .col2 {float:left; width: 16.66666667%;}
 .col1 {float:left; width: 8.33333333%;}
 
-ul.clear{list-style: outside none none; margin: 0; padding: 0;}
+h1{margin: 0; font-size: 2.2em; font-weight: normal;}
+h2{margin: 0; font-size: 2.0em; font-weight: normal;}
+h3{margin: 0; font-size: 1.6em; font-weight: normal;}
+
+.training{background: #fff url("../img/thoughtful.jpg") right no-repeat; background-size: contain;}
+.training-phone{font-size: 1.8em; font-weight: normal; color: #73040B}
+.training-slogan{margin: 30px 0 10px 30px; font-size: 2em; font-weight: normal; color: #143264}
+
+.relationship-img{width: 60px; height: 60px; background: #223B51; border-radius: 50%; float: left;}
+.relationship-title{background: #fff; padding: 5px; margin: 5px 5px 5px 65px; border-radius: 3px;
+                    font-size: 1.1em; text-align: center;}
+.relationship li{margin: 7px 0}
+
+.benefit li{background: url("../img/flag.png") no-repeat left center; padding: 5px 0 5px 33px;}
+
+.advantages .title{font-size: 2em; text-align: center;}
+.advantages .descr{font-size: 1.4em; text-align: center;}
+.advantages li{background: url("../img/like.png") no-repeat left center; padding: 5px 0 5px 33px;}
